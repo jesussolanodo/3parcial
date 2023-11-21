@@ -1,0 +1,89 @@
+Sub BorrarValores()
+    ' Borrar valores de celdas específicas
+    Range("B1").ClearContents
+    Range("B2").ClearContents
+    Range("A8:A20").ClearContents
+    Range("B8:B20").ClearContents
+    Range("B4").ClearContents
+    Range("C4").ClearContents
+    Range("D4").ClearContents
+    Range("E4").ClearContents
+    Range("F4").ClearContents
+    Range("G4").ClearContents
+    Range("H4").ClearContents
+     Range("I4").ClearContents
+      Range("J4").ClearContents
+    Range("E9").ClearContents
+    
+End Sub
+Sub PRACTICA()
+'
+' PRACTICA Macro
+'
+
+'
+    Range("A8").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=R[-4]C[1]"
+    Range("A9").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=R[-5]C[2]"
+    Range("A10").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=R[-6]C[3]"
+    Range("A11").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=R[-7]C[4]"
+    Range("A12").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=R[-8]C[5]"
+    Range("A13").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=R[-9]C[6]"
+    Range("A14").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=R[-10]C[7]"
+    Range("A15").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=R[-11]C[8]"
+    Range("A16").Select
+    
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=R[-12]C[9]"
+    Range("B8").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=ABS(RC[-1]-R[-7]C)"
+    Range("B9").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=ABS(RC[-1]-R[-1]C[-1])"
+    Range("B10").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=ABS(RC[-1]-R[-1]C[-1])"
+    Range("B11").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=ABS(RC[-1]-R[-1]C[-1])"
+    Range("B12").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=ABS(RC[-1]-R[-1]C[-1])"
+    Range("B13").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=ABS(RC[-1]-R[-1]C[-1])"
+    Range("B14").Select
+        Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=ABS(RC[-1]-R[-1]C[-1])"
+    Range("B15").Select
+        Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=ABS(RC[-1]-R[-1]C[-1])"
+    Range("B16").Select
+    
+    Application.CutCopyMode = False
+    
+    
+    ActiveCell.FormulaR1C1 = "=ABS(RC[-1]-R[-1]C[-1])"
+    Range("E9").Select
+    Application.CutCopyMode = False
+    
+ActiveCell.FormulaR1C1 = "=AVERAGE(R[-1]C[-3]:R[8]C[-3])"
+
+
+End Sub
